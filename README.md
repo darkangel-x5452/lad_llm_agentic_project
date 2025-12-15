@@ -28,9 +28,11 @@ EOF
 
 ## MCP
 - `python mcp_tools/weather/weather_mcp_server.py`
+
 ### Python
 - pip install ollama
 
 
 # Resources
 - https://medium.com/@akankshasinha247/building-multi-agent-architectures-orchestrating-intelligent-agent-systems-46700e50250b
+- https://github.com/patchy631/ai-engineering-hub/blob/main/llamaindex-mcp/ollama_client.ipynb
