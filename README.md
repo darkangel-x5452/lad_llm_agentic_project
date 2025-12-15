@@ -29,6 +29,10 @@ EOF
 ## MCP
 - `python mcp_tools/weather/weather_mcp_server.py`
 
+## RAG
+- `python rag_indexer.py`
+- `python rag_mcp_server.py`
+
 ### Python
 - pip install ollama
 
