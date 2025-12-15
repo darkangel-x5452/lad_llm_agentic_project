@@ -1,0 +1,6 @@
+ollama
+mcp
+requests
+beautifulsoup4
+llama-index
+llama-index-tools-mcp
