@@ -14,6 +14,7 @@ class OrchestratorAgent:
             "math": MathAgent(),
             "code": CodeAgent(),
             "weather": WeatherAgent(),
+            "weather": WeatherAgent(),
         }
 
     def categorize_task(self, prompt):

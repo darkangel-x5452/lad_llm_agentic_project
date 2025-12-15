@@ -40,3 +40,4 @@ EOF
 # Resources
 - https://medium.com/@akankshasinha247/building-multi-agent-architectures-orchestrating-intelligent-agent-systems-46700e50250b
 - https://github.com/patchy631/ai-engineering-hub/blob/main/llamaindex-mcp/ollama_client.ipynb
+- https://github.com/patchy631/ai-engineering-hub/blob/main/multi-modal-rag/mm_prompting.ipynb
