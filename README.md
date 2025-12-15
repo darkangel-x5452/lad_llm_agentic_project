@@ -36,6 +36,17 @@ EOF
 ### Python
 - pip install ollama
 
+TODO:
+1️⃣ Planning & Control (Biggest capability jump)
+2️⃣ Verification & Critique (Reliability)
+3️⃣ Memory (Personalization & Learning)
+4️⃣ Intent Understanding & Query Reformulation
+5️⃣ Tool Confidence & Fallback Logic (Robustness)
+6️⃣ Observability & Traceability (Debuggability)
+7️⃣ Evaluation & Regression Testing (Scaling safely)
+8️⃣ Guardrails & Policy Enforcement (Safety)
+9️⃣ Execution Budgeting (Cost & Latency Control)
+🔟 Hybrid Reasoning (Performance)
 
 # Resources
 - https://medium.com/@akankshasinha247/building-multi-agent-architectures-orchestrating-intelligent-agent-systems-46700e50250b
