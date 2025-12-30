@@ -1,5 +1,5 @@
 class ShortTermMemory:
-    def __init__(self, max_len=10):
+    def __init__(self, max_len=100):
         self.buffer = []
         self.max_len = max_len
 

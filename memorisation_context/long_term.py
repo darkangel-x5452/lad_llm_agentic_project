@@ -3,7 +3,12 @@ import faiss
 import json
 
 class SemanticMemory:
-    def __init__(self, model_name="all-MiniLM-L6-v2", index_path="memory.index", meta_path="memory_meta.json"):
+    def __init__(self, 
+                 model_name="all-MiniLM-L6-v2", 
+                #  model_name='llama3.2:3b',
+                 index_path="memory.index", 
+                 meta_path="memory_meta.json"
+                 ):
         self.embedder = SentenceTransformer(model_name)
         self.index_path = index_path
         self.meta_path = meta_path
@@ -31,4 +36,6 @@ class SemanticMemory:
     def query(self, query, top_k=3):
         q_emb = self.embedder.encode([query])
         D, I = self.index.search(q_emb, top_k)
+        if len(self.meta) == 0:
+            return []
         return [self.meta[i] for i in I[0]]
