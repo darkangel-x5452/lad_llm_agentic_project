@@ -1,4 +1,7 @@
 # lad_llm_llama_project
+# High Kevel Design
+
+![agentic_design](docs/images/agentic_design.png)
 
 # Setup
 ## NVIDA and CUDA
