@@ -7,3 +7,9 @@ llama-index-tools-mcp
 torch
 faiss-cpu
 sentence-transformers
+serpapi
+#crawl4ai
+docling
+ipython
+#paddleocr
+#paddlepaddle
